@@ -1,0 +1,110 @@
+img{
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+}
+
+h1{
+    position: relative;
+    left: 500px;
+    bottom: 230px;
+    color: aqua;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+@media(min-width:320px){
+    img{
+        width:350px;
+        height: 300px;
+        position: relative;
+        right: 300px;
+    }
+    .h1 {
+        position: relative;
+        right: 440px;
+        font-size: 16px;
+        top: 50px;
+      
+    }
+}
+
+/* #max width means what happend if pixel down to that brakpoint */
+
+@media(min-width:375px){
+    img{
+        width:350px;
+        height: 300px;
+        position: relative;
+        right: 300px;
+    }
+    .h1 {
+        position: relative;
+        right: 440px;
+        font-size: 16px;
+        top: 50px;
+      
+    }
+}
+
+@media(min-width:425px){
+    img{
+        width:400px;
+        height: 300px;
+        position: relative;
+        right: 300px;
+    }
+    .h1 {
+        position: relative;
+        right: 440px;
+        font-size: 16px;
+        top: 50px;
+      
+    }
+}
+
+@media(min-width:768px){
+    img{
+        width:750px;
+        height: 500px;
+        position: relative;
+        right: 300px;
+    }
+    .h1 h1 {
+       position: relative;
+       bottom: 300px;
+       left: 700px;
+        
+      
+    }
+}
+
+@media(min-width:1024px){
+    img{
+        width:1000px;
+        height: 600px;
+        position: relative;
+        right: 300px;
+    }
+    .h1 h1 {
+       position: relative;
+       bottom: 350px;
+       left: 800px;
+        
+      
+    }
+}
+
+@media(min-width:1440px){
+    img{
+        width:1420px;
+        height:900px;
+    }
+    .h1 h1{
+        position: relative;
+        bottom:480px ;
+        left: 1000px;
+    }
+}
